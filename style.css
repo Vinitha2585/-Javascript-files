@@ -1,0 +1,42 @@
+.form{
+    padding-left: 200px;
+}
+.button{
+    cursor:hover;
+    color: brown;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+.imp {
+
+    display: flex;
+    gap: 100px;
+}
+.fun{
+    border-radius: 2px;
+    border: 2px solid black;
+    width: 200px;
+    height: 150px;
+    padding-left: 20px;
+}
+.date{
+    display: flex;
+    gap: 10px;
+}
+#list li {
+    margin-bottom: 10px;
+}
+#list li .text {
+    width: 80px;
+}
+
+#list li button {
+    margin-right: 10px;
+}

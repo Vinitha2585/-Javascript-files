@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Result Management</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="result-card">
+
+            <h1>Student Result Management</h1>
+
+            <div class="input-group">
+                <label>Student Name</label>
+                <input type="text" id="studentName" placeholder="Enter student name">
+            </div>
+
+            <div class="input-group">
+                <label>Register Number</label>
+                <input type="text" id="registerNumber" placeholder="Enter register number">
+            </div>
+
+            <h2>Enter Subject Marks</h2>
+
+            <div class="marks-container">
+
+                <div class="input-group">
+                    <label>Tamil</label>
+                    <input type="number" class="mark" placeholder="Tamil Mark">
+                </div>
+
+                <div class="input-group">
+                    <label>English</label>
+                    <input type="number" class="mark" placeholder="English Mark">
+                </div>
+
+                <div class="input-group">
+                    <label>Maths</label>
+                    <input type="number" class="mark" placeholder="Maths Mark">
+                </div>
+
+                <div class="input-group">
+                    <label>Science</label>
+                    <input type="number" class="mark" placeholder="Science Mark">
+                </div>
+
+                <div class="input-group">
+                    <label>Social Science</label>
+                    <input type="number" class="mark" placeholder="Social Science Mark">
+                </div>
+
+            </div>
+
+            <button id="calculateBtn">Calculate Result</button>
+
+        </div>
+
+
+        <!-- Result Display Section -->
+
+        <div id="resultSection" class="result-display">
+
+            <h2>Student Result</h2>
+
+            <p><strong>Name:</strong> <span id="displayName"></span></p>
+
+            <p><strong>Register Number:</strong>
+                <span id="displayRegister"></span>
+            </p>
+
+            <p><strong>Total Marks:</strong>
+                <span id="displayTotal"></span> / 500
+            </p>
+
+            <p><strong>Average:</strong>
+                <span id="displayAverage"></span>
+            </p>
+
+            <p><strong>Grade:</strong>
+                <span id="displayGrade"></span>
+            </p>
+
+            <div id="statusBox"></div>
+
+            <p id="gradeMessage"></p>
+
+        </div>
+
+    </div>
+
+    <script src="scripte.js"></script>
+
+</body>
+</html>

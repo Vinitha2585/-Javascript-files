@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+.table-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+thead {
+    background: #2563eb;
+    color: white;
+}
+
+th, td {
+    padding: 15px 12px;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+th {
+    white-space: nowrap;
+}
+
+td {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    .table-container {
+        max-width: 100%;
+    }
+
+    table {
+        min-width: 750px;
+    }
+}
+  </style>
+    
+</head>
+<body>
+    <!-- <center>
+    <h1>Student mark management</h1>
+</center> -->
+
+<!-- <div class="form">
+    <div class="label">
+
+        <label>Name:</label>
+        <input type="text" id="name">
+
+        <label>Register Number:</label>
+        <input type="text" id="register"><br>
+
+        <label style="font-size: x-large;">
+            <b>Marks</b>
+        </label><br>
+
+        <label>Tamil:</label>
+        <input type="text" id="tamil">
+
+        <label>English:</label>
+        <input type="text" id="english">
+
+        <label>Maths:</label>
+        <input type="text" id="maths">
+
+        <label>Science:</label>
+        <input type="text" id="science">
+
+        <label>Social science:</label>
+        <input type="text" id="social">
+
+        <br>
+
+        <button 
+            style="font-size: 30px; padding-top:20px;"
+            onclick="calculateResult()">
+            Calculate Result
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+</div> -->
+
+<h1 id="title" style="color: blue">Welcome to Vinitha!</h1>
+
+<p style="color: green;">Hi, I am Vinitha. I am a web developer and I love to create beautiful and functional websites. I have a passion for learning new technologies and improving my skills. In my free time, I enjoy reading books, watching movies, and exploring new places.</p>
+
+
+
+<select id="course">
+    <option value="">Select Course</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="Python">Python</option>
+</select>
+
+<br>
+
+<img src="img-2.jpg" alt="Image" id="image">
+
+<br>
+
+<!-- <div class="imp">
+    <div class="fun">
+<form>
+    <label>Enter the Name</label>
+    <input type="text" id="name"><br>
+    <label>Phone number</label>
+    <input type="text" id="phone"></input><br>
+    <button>SUBMIT</button>
+</form> -->
+<!-- <div class="date">
+<input type=text id="input" style="height: 50px; width: 200px;">
+<br>
+
+<button id="button" onclick="addValue()" style="background-color: brown; color: white; width: 150px; height:50px">Click ME!</button>
+</div>
+
+
+<ul id="list">
+
+</ul> -->
+
+
+<!-- <div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>User Email ID</th>
+                <th>User Mobile No</th>
+                <th>User Address</th>
+                <th>Edit Action</th>
+                <th>Delete Action</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</div> -->
+<div>
+<table>
+    <thead>
+<tr>
+    <th>Product Title</th>
+    <th>Price</th>
+    <th>Category</th>
+    <th>Description</th>
+    
+</tr>
+    <tbody id="tbody"></tbody>
+    </table>
+    </div>
+
+<!-- <h1>THANK YOU FOR APPLY THIS</h1> -->
+<script src="./script.js"></script>
+</body>
+</html>
